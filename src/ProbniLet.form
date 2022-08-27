@@ -1,0 +1,1891 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="MenuBar_adminMeni">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="Menu_opste">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+            <Property name="toolTipText" type="java.lang.String" value="Op&#x161;ti Meni"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="MenuItem_internet">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+I"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Grafika/network-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Internet"/>
+                <Property name="toolTipText" type="java.lang.String" value="Provera da li je aplikacija konektovana ili ne na Internet"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MenuItem_internetActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="MenuItem_baza">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+B"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Grafika/Misc-Delete-Database-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Baza"/>
+                <Property name="toolTipText" type="java.lang.String" value="Provera da li je aplikacija konektovana ili ne na bazu podataka"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MenuItem_bazaActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator2">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="MenuItem_LogOut">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+A"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Grafika/door-out-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Log Out"/>
+                <Property name="toolTipText" type="java.lang.String" value="Log Out sa sistema EDMS"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MenuItem_LogOutActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator4">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="MenuItem_Exit">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+E"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Grafika/Button-Close-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+                <Property name="toolTipText" type="java.lang.String" value="Izlaz iz sistema EDMS"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MenuItem_ExitActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="Menu_help">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Help"/>
+            <Property name="toolTipText" type="java.lang.String" value="Help"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Panel za Administraciju Probnog Leta"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="MenuBar_adminMeni"/>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-29,0,0,3,-126"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPaneIzvestajProbniLet" alignment="0" max="32767" attributes="0"/>
+          <Component id="ToolBar_OpsteFunkcije" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="ToolBar_OpsteFunkcije" min="-2" pref="48" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jTabbedPaneIzvestajProbniLet" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPaneIzvestajProbniLet">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="12" style="1"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanelOsnovaPLeta">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Izve&#x161;taj sa probnog leta">
+                <Property name="tabTitle" type="java.lang.String" value="Izve&#x161;taj sa probnog leta"/>
+                <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Grafika/icon.png"/>
+                </Property>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jTabbedPaneIZVESTAJ_SA_PROBNOG_LETA" min="-2" pref="666" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="Button_insertProbniLet" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="Button_clearProbniLet" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="Button_stampaProbniLet" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Button_refreshProbniLet" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="Button_updateProbniLet" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Button_deleteProbniLet" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="txt_pretragaProbniLet" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPaneTable" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPaneTable" min="-2" pref="143" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTabbedPaneIZVESTAJ_SA_PROBNOG_LETA" pref="438" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="txt_pretragaProbniLet" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Button_clearProbniLet" alignment="0" min="-2" pref="46" max="-2" attributes="0"/>
+                                  <Component id="Button_stampaProbniLet" alignment="0" min="-2" pref="46" max="-2" attributes="0"/>
+                                  <Component id="Button_refreshProbniLet" alignment="0" min="-2" pref="46" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="Button_insertProbniLet" alignment="1" min="-2" pref="46" max="-2" attributes="0"/>
+                                  <Component id="Button_updateProbniLet" alignment="1" min="-2" pref="46" max="-2" attributes="0"/>
+                                  <Component id="Button_deleteProbniLet" alignment="1" min="-2" pref="46" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPaneTable">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTableProbniLet">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTableProbniLetMouseClicked"/>
+                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTableProbniLetKeyReleased"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JTabbedPane" name="jTabbedPaneIZVESTAJ_SA_PROBNOG_LETA">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPanePodaciVazduhoplova">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Podaci o Vazduhoplovu">
+                        <Property name="tabTitle" type="java.lang.String" value="Podaci o Vazduhoplovu"/>
+                        <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Grafika/file-complete-icon.png"/>
+                        </Property>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="jPanelPodaciVazduhoplov">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder title="Podaci o Vazduhoplovu">
+                              <Font PropertyName="font" name="Times New Roman" size="12" style="1"/>
+                            </TitledBorder>
+                          </Border>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jPanelNeMenjati" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabelAerodromPLeta" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="jTextFieldAerodromPLeta" min="-2" pref="166" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabelZavrsetakPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelPritisakVazduhaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelTemperaturaVazduhaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelVisinaLetaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelPPPregledIzvrsioPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelPocetakPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelDatumPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel_idProbnogLeta" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="jTextField_idProbnogLeta" max="32767" attributes="0"/>
+                                              <Component id="jTextFieldPocetakPLeta" pref="166" max="32767" attributes="0"/>
+                                              <Component id="jTextFieldVisinaLetaPLeta" alignment="0" pref="166" max="32767" attributes="0"/>
+                                              <Component id="jTextFieldTemperaturaVazduhaPLeta" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jTextFieldZavrsetakPLeta" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jTextFieldPritisakVazduhaPLeta" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jDateChooser_DatumProbnogLeta" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jTextField_pppIzvrsio" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="108" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelAerodromPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldAerodromPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Component id="jLabelDatumPLeta" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jTextFieldPocetakPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jLabelPocetakPLeta" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="jDateChooser_DatumProbnogLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelZavrsetakPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldZavrsetakPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelPritisakVazduhaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldPritisakVazduhaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelTemperaturaVazduhaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldTemperaturaVazduhaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabelVisinaLetaPLeta" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                                  <Component id="jLabelPPPregledIzvrsioPLeta" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                  <Component id="jLabel_idProbnogLeta" alignment="1" min="-2" pref="20" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jTextFieldVisinaLetaPLeta" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="jTextField_pppIzvrsio" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="jTextField_idProbnogLeta" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Component id="jPanelNeMenjati" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="83" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabelAerodromPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Aerodrom"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldAerodromPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Aerodrom na kome se izvodi Probno Letenje"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelDatumPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Datum"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPocetakPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Po&#x10d;etak"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldPocetakPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite po&#x10d;etak Probnog Letenja"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelZavrsetakPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Zavr&#x161;etak"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldZavrsetakPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Zavr&#x161;etak Probnog Letenja"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPritisakVazduhaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Pritisak Vazduha"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldPritisakVazduhaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Pritisak Vazduha"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelTemperaturaVazduhaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Temperatura Vazduha"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldTemperaturaVazduhaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Temperaturu Vazduha"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelVisinaLetaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Visina Leta"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldVisinaLetaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Visinu Leta"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPPPregledIzvrsioPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Predpoletni Pregled Izvr&#x161;io"/>
+                          </Properties>
+                        </Component>
+                        <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser_DatumProbnogLeta">
+                          <Properties>
+                            <Property name="dateFormatString" type="java.lang.String" value="yyyy-MM-dd"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel_idProbnogLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="id"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextField_idProbnogLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Identifikacioni Broj Probnog Leta"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextField_pppIzvrsio">
+                        </Component>
+                        <Container class="javax.swing.JPanel" name="jPanelNeMenjati">
+                          <Properties>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                <TitledBorder title="Ovo Nemo&#x17e;ete Menjati">
+                                  <Font PropertyName="font" name="Times New Roman" size="14" style="1"/>
+                                  <Color PropertyName="color" blue="0" green="0" red="ff" type="rgb"/>
+                                </TitledBorder>
+                              </Border>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabelProizvodjacTip" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="jTextFieldProizvodjacVazduhoplov" min="-2" pref="177" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabelRGOznake" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="jComboBoxRGOznake" min="-2" pref="177" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabelCiklusaVazduhoplovaPLet" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabelBrNaloga" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabelPredmetRadovaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jComboBoxBRNaloga" max="32767" attributes="0"/>
+                                                  <Component id="jTextFieldCiklusaVazduhoplovaPLeta" alignment="1" min="-2" pref="177" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="jLabelSerijskiBroj" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="jTextFieldSerijskiBrojVazduhoplovaPLet" min="-2" pref="177" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="jLabelNaletVazduhoplovaPLet" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="jTextFieldNaletVazduhoplovaPLet" min="-2" pref="177" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="jLabelCasovaLetaPLet" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="jTextFieldCasovaLetaPLet" min="-2" pref="177" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabelProizvodjacTip" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jTextFieldProizvodjacVazduhoplov" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabelRGOznake" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jComboBoxRGOznake" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jTextFieldSerijskiBrojVazduhoplovaPLet" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelSerijskiBroj" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jTextFieldNaletVazduhoplovaPLet" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelNaletVazduhoplovaPLet" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jTextFieldCasovaLetaPLet" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelCasovaLetaPLet" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jTextFieldCiklusaVazduhoplovaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelCiklusaVazduhoplovaPLet" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jComboBoxBRNaloga" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelBrNaloga" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelPredmetRadovaPLeta" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabelProizvodjacTip">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Proizvo&#x111;a&#x10d;"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabelSerijskiBroj">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Serijski Broj"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabelBrNaloga">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Radni Nalog"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jTextFieldNaletVazduhoplovaPLet">
+                              <Properties>
+                                <Property name="toolTipText" type="java.lang.String" value="Unesite Broj sati Naleta"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="jComboBoxBRNaloga">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="1">
+                                    <StringItem index="0" value="Izaberite Radni Nalog"/>
+                                  </StringArray>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value="Izaberite Radni Nalog"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="jComboBoxBRNalogaPopupMenuWillBecomeInvisible"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="jComboBoxRGOznake">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="1">
+                                    <StringItem index="0" value="Izaberite Registracionu Oznaku"/>
+                                  </StringArray>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value="Izaberite Registracionu Oznaku Vazduhoplova"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="jComboBoxRGOznakePopupMenuWillBecomeInvisible"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jTextFieldCiklusaVazduhoplovaPLeta">
+                              <Properties>
+                                <Property name="toolTipText" type="java.lang.String" value="Unesite Broj Ciklusa"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jTextFieldSerijskiBrojVazduhoplovaPLet">
+                              <Properties>
+                                <Property name="toolTipText" type="java.lang.String" value="Unesite Seriski Broj Vazduhoplova"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jTextFieldCasovaLetaPLet">
+                              <Properties>
+                                <Property name="toolTipText" type="java.lang.String" value="Unesite Broj &#x10c;asova Leta"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabelNaletVazduhoplovaPLet">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Nalet"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jTextFieldProizvodjacVazduhoplov">
+                              <Properties>
+                                <Property name="toolTipText" type="java.lang.String" value="Unesite Proizvo&#x111;a&#x10d;a i Tip Vazduhoplova"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabelCiklusaVazduhoplovaPLet">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Ciklusa"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabelCasovaLetaPLet">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="&#x10c;asova Leta"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabelRGOznake">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="RG. Oznake"/>
+                              </Properties>
+                            </Component>
+                            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                              <AuxValues>
+                                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                              </AuxValues>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                              <SubComponents>
+                                <Component class="javax.swing.JTextArea" name="jTextAreaPredmetRadovaPLeta">
+                                  <Properties>
+                                    <Property name="columns" type="int" value="20"/>
+                                    <Property name="rows" type="int" value="5"/>
+                                    <Property name="toolTipText" type="java.lang.String" value="Unesite Predmet Radova"/>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                            <Component class="javax.swing.JLabel" name="jLabelPredmetRadovaPLeta">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Predmet Radova"/>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JScrollPane" name="jScrollPaneMotor">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Motor">
+                        <Property name="tabTitle" type="java.lang.String" value="Motor"/>
+                        <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Grafika/Very-Basic-Services-icon.png"/>
+                        </Property>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="jPanelMotor">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder title="Motor">
+                              <Font PropertyName="font" name="Times New Roman" size="12" style="1"/>
+                            </TitledBorder>
+                          </Border>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabelStartovanjePLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelZagrevanjePLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelGKarburatoraPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelKomandaGasaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelKomandaSmesePLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelKRSGPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelParkingKocnicaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelPunjenjeGPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelUQUPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelPritUQAPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelPritGorivaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelProtokGorivaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelTgcPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelKomandaKorakaElisePLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jTextFieldParkingKocnicaPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldStartovanjePLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldKRSGPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldKomandaSemsePLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFielKomandaGasaPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldGKarburatoraPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldZagrevanjePLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldPunjenjeGPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldUQAPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldPritUQAPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldPritGorivaPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldProtokGorivaPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldTGCPLeta" alignment="0" pref="100" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldKomandaKorakaElisePLeta" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabelPKEPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelPunaSnagaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabelVelikiKorakPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelMaliKPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelBRObrtaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelManaoVakumPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelProtikGorivaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelProveraSmesePLetaS" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelZaluzineMotoraPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelHladnjakaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                          <Component id="jLabelPMPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabelaPMROPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabelPMDesniPLeta" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabelPMLeviPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jTextFieldPMROPLeta" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jTextFieldMaliKorakPLeta" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextFieldVelikiKorakPLeta" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextFieldBRObrtaPLeta" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextFieldManoVakumPLeta" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextFieldProtokGorivaPleta" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextFieldPSPleta" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextFieldZaluzineMotoraPLeta" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextFieldHladnjakaPLeta" alignment="0" pref="100" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="jTextFieldPMLeviPLeta" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldPMDesniPLeta" min="-2" pref="101" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="189" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabelStartovanjePLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldStartovanjePLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelPMPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabelZagrevanjePLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                                  <Component id="jTextFieldZagrevanjePLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabelPMDesniPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelGKarburatoraPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldGKarburatoraPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelPMLeviPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                          <Component id="jTextFieldPMDesniPLeta" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jTextFieldPMLeviPLeta" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabelKomandaGasaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextFielKomandaGasaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelaPMROPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldPMROPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jTextFieldKomandaSemsePLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelKomandaSmesePLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelPKEPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabelMaliKPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldMaliKorakPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelKomandaKorakaElisePLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldKomandaKorakaElisePLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                                  <Component id="jLabelPunaSnagaPLeta" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="jTextFieldVelikiKorakPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelVelikiKorakPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelBRObrtaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldBRObrtaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelManaoVakumPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldManoVakumPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelProtikGorivaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldProtokGorivaPleta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelProveraSmesePLetaS" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldPSPleta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelZaluzineMotoraPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldZaluzineMotoraPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelHladnjakaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldHladnjakaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelKRSGPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldKRSGPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabelParkingKocnicaPLeta" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="jLabelPunjenjeGPLeta" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jTextFieldParkingKocnicaPLeta" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jTextFieldPunjenjeGPLeta" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelUQUPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldUQAPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelPritUQAPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldPritUQAPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelPritGorivaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldPritGorivaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelProtokGorivaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldProtokGorivaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabelTgcPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextFieldTGCPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabelStartovanjePLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Startovanje"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelZagrevanjePLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Zagrevanje"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelGKarburatoraPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Greja&#x10d; Karburatora"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldStartovanjePLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Startovanje"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldGKarburatoraPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Greja&#x10d; Karburatora"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelKomandaGasaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Komanda Gasa"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFielKomandaGasaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Komandu Gasa"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelKomandaSmesePLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Komanda Sme&#x161;e"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldKomandaSemsePLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Komandu Sme&#x161;e"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelKRSGPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Komanda Rada Slavina Goriva"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldKRSGPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Komanda Rada Slavina Goriva"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelParkingKocnicaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Parking Ko&#x10d;nica"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPMPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Proba Magneta"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPMLeviPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Levi"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldPMLeviPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite probu magneta Levu"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPMDesniPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Desni"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldPMDesniPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite probu magneta Desnu"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelaPMROPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Razlika Obrtaja"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldPMROPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Razliku Obrtaja"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPKEPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Promena Koraka Elise"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelMaliKPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Mali Korak"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldMaliKorakPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite promenu koraka elise Mali Korak"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelVelikiKorakPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Veliki Korak"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldVelikiKorakPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite promenu koraka elise Veliki Korak"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPunaSnagaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Puna Snaga"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldZagrevanjePLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Zagrevanje"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldParkingKocnicaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Parking Ko&#x10d;nice"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPunjenjeGPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Punjenje Generatora"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldPunjenjeGPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Punjenje Generatora"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelUQUPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Temp.UQA"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldUQAPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Temp.UQA"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPritUQAPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Prit.UQA"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldPritUQAPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Prit.UQA"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPritGorivaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Prit.Goriva"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldPritGorivaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Prit Goriva"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelProtokGorivaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Protok Goriva"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldProtokGorivaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Protok Goriva"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelTgcPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="TGC"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldTGCPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite TGC"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelBRObrtaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="BR.Obrta"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldBRObrtaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite BR.Obrta"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelManaoVakumPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Mano Vakum"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldManoVakumPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Mano Vakum"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelProtikGorivaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Protok Goriva"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldProtokGorivaPleta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Protok Griva"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelProveraSmesePLetaS">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Provera Sme&#x161;e"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldPSPleta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Proveru Sme&#x161;e"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelZaluzineMotoraPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&#x17d;aluzine Motora"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldZaluzineMotoraPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite &#x17d;aluzine Motora"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelHladnjakaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Hladnjaka"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldHladnjakaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Hladnjaka"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelKomandaKorakaElisePLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Komanda Koraka Elise"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldKomandaKorakaElisePLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Komanda Koraka Elise"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JScrollPane" name="jScrollPaneProverauLetu">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Provera u Letu">
+                        <Property name="tabTitle" type="java.lang.String" value="Provera u Letu"/>
+                        <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Grafika/icon.png"/>
+                        </Property>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="jPanelProveraULetu">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder title="Provera u Letu">
+                              <Font PropertyName="font" name="Times New Roman" size="12" style="1"/>
+                            </TitledBorder>
+                          </Border>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabelVoznjaPoZemljiPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelKocnicePLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelGUPUPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelStajniTrapPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelRadTrimeraPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelRKLULPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelRadZakrilcaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelIndikacijaZakrilca" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelRadioStanicaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelInterfonPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelSvetlaUpozorenjaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                          <Component id="jLabelADFPLeta" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelVORPLeta" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jTextFieldRadZakrilcaPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldVoznjaPoZemljPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldRKLULPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldRadTrimeraPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFielStajniTrapPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldUpravljivostUPoletanjuPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldKocnicePLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldIndikacijaZakrilcaPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldSvetlaUpozorenjaPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldRadioStanicaPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldVORPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldADFPLeta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldInterfonPLeta" alignment="0" pref="100" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabelHorizontalniPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelPrevuceniPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelZapazanjaPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabelOdobrenoPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabelPilotPLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jTextFieldOdobrenoPLeta" alignment="1" min="-2" pref="100" max="-2" attributes="0"/>
+                                                  <Component id="jTextFieldPilotPLeta" alignment="1" min="-2" pref="100" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="jLabelOstriZaokretPLeta" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="jTextFieldOstriZaokretPLeta" min="-2" pref="100" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="jLabePokazivanjeIstrumenataPLeta" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabel_sletanje" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Group type="102" attributes="0">
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="jTextFieldHorizontalniPLeta" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                                                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                                                      <Component id="jTextFieldPokazivanjeIstrumenataPLeta" alignment="0" pref="101" max="32767" attributes="0"/>
+                                                                      <Component id="jTextFieldPrevuceniLetOPLeta" alignment="0" max="32767" attributes="0"/>
+                                                                  </Group>
+                                                              </Group>
+                                                          </Group>
+                                                          <Group type="102" attributes="0">
+                                                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                                              <Component id="jTextField_sletanjePleta" min="-2" pref="100" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jScrollPane2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="178" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="jTextFieldVoznjaPoZemljPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelVoznjaPoZemljiPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="jLabePokazivanjeIstrumenataPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jTextFieldPokazivanjeIstrumenataPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabelKocnicePLeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="jTextFieldKocnicePLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelHorizontalniPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jTextFieldHorizontalniPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabelGUPUPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldUpravljivostUPoletanjuPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelPrevuceniPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabelStajniTrapPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextFielStajniTrapPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldPrevuceniLetOPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jTextFieldRadTrimeraPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelRadTrimeraPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelOstriZaokretPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldOstriZaokretPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabelRKLULPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldRKLULPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel_sletanje" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextField_sletanjePleta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabelRadZakrilcaPLeta" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="jLabelIndikacijaZakrilca" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jTextFieldRadZakrilcaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelZapazanjaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="jLabelRadioStanicaPLeta" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Component id="jTextFieldIndikacijaZakrilcaPLeta" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="3" attributes="0">
+                                                              <Component id="jTextFieldSvetlaUpozorenjaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabelSvetlaUpozorenjaPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="jTextFieldRadioStanicaPLeta" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="jTextFieldVORPLeta" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jLabelVORPLeta" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="jScrollPane2" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                          <Component id="jTextFieldADFPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelOdobrenoPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jTextFieldOdobrenoPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jLabelADFPLeta" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jTextFieldInterfonPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelInterfonPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelPilotPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldPilotPLeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabelVoznjaPoZemljiPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Vo&#x17e;nja po Zemlji"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelKocnicePLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Ko&#x10d;nice"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelGUPUPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Upravljivost u Poletanju"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldVoznjaPoZemljPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite vo&#x17e;nju po zemlji"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldUpravljivostUPoletanjuPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite upravljivost u poletanju"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelStajniTrapPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Stajni Trap"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFielStajniTrapPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Stajni Trap"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelRadTrimeraPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Rad Trimera"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldRadTrimeraPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Rad Trimera"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelRKLULPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Rad Komandi Leta u Letu"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldRKLULPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Rad Komandi u Letu"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelRadZakrilcaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Rad Zakrilaca"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabePokazivanjeIstrumenataPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Pokazivanje Istrumenata"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelHorizontalniPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Horizontalni Let"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldPokazivanjeIstrumenataPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Pokazivanje Istrumenata"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPrevuceniPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Prevu&#x10d;eni Let, Brzina Sloma Uzgona"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldHorizontalniPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Horizontalni Let"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldPrevuceniLetOPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Prevu&#x10d;eni Let, Brzinu Sloma Uzgona"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelOstriZaokretPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Levi i Desni O&#x161;tri Zaokret"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldOstriZaokretPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Levi Desni O&#x161;tri Zaokret"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelZapazanjaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Op&#x161;ta Zapa&#x17e;anja Pilota"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldKocnicePLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite ocenu ko&#x10d;nica"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldRadZakrilcaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Rad Zakrilca"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelIndikacijaZakrilca">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Indikacija Zakrilaca"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldIndikacijaZakrilcaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Indikacija Zakrilca"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelSvetlaUpozorenjaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Svetla Upozorenja"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldSvetlaUpozorenjaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Svetla Upozorenja"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelRadioStanicaPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Radio Stanica"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldRadioStanicaPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Radio Stanicu"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelVORPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="VOR"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldVORPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite VOR"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelADFPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="ADF"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldADFPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite ADF"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelInterfonPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Interfon"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldInterfonPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Interfon"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelOdobrenoPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Odobreno Re&#x161;enjem DCV br."/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldOdobrenoPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Broj Re&#x161;enje Odobrenja DCV"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabelPilotPLeta">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Pilot"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextFieldPilotPLeta">
+                          <Properties>
+                            <Property name="toolTipText" type="java.lang.String" value="Unesite Pilota"/>
+                          </Properties>
+                        </Component>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextArea" name="jTextAreaZapazanjaPLeta">
+                              <Properties>
+                                <Property name="columns" type="int" value="20"/>
+                                <Property name="rows" type="int" value="5"/>
+                                <Property name="toolTipText" type="java.lang.String" value="Unesite Zapa&#x17e;anja Pilota"/>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Component class="javax.swing.JLabel" name="jLabel_sletanje">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Prilaz i Sletanje"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="jTextField_sletanjePleta">
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JTextField" name="txt_pretragaProbniLet">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="Pretraga Po Broju DCV"/>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[6, 40]"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt_pretragaProbniLetKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Button_insertProbniLet">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="14" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Grafika/Emblems-vcs-added-icon.png"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Unos novih podataka u bazu"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_insertProbniLetActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Button_clearProbniLet">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="14" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Grafika/Actions-edit-clear-icon.png"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="O&#x10d;isti polja za unos podataka"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_clearProbniLetActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Button_updateProbniLet">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="14" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Grafika/Text-Edit-icon.png"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="A&#x17e;uriranje izabranih podataka"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_updateProbniLetActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Button_refreshProbniLet">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="14" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Grafika/Reload-icon.png"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="U&#x10d;itavanje podataka u tabelu ponovo"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_refreshProbniLetActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Button_stampaProbniLet">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="14" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Grafika/Adobe-PDF-Document-icon.png"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Generisanje Dokumenta u PDF formatu koji mo&#x17e;ete &#x161;tampati"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_stampaProbniLetActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Button_deleteProbniLet">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="14" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Grafika/delete-icon.png"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Obri&#x161;i izabrane podatke iz baze"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_deleteProbniLetActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JToolBar" name="ToolBar_OpsteFunkcije">
+      <Properties>
+        <Property name="floatable" type="boolean" value="false"/>
+        <Property name="rollover" type="boolean" value="true"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JToolBar$Separator" name="jSeparator3">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelPozdravnaPoruka">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="33" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Dobrodo&#x161;li "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelUser">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="User"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="Button_singout">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Grafika/door-out-icon.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Log Out"/>
+            <Property name="toolTipText" type="java.lang.String" value="Log Out sa sistema EDMS"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_singoutActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToolBar$Separator" name="jSeparator1">
+        </Component>
+        <Component class="javax.swing.JButton" name="Button_internet">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Grafika/network-icon.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Internet"/>
+            <Property name="toolTipText" type="java.lang.String" value="Provera da li je aplikacija konektovana ili ne na Internet"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_internetActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="Button_proveraKonekcijaBaze">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Grafika/Misc-Delete-Database-icon.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Baza"/>
+            <Property name="toolTipText" type="java.lang.String" value="Provera da li je aplikacija konektovana ili ne na bazu podataka"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_proveraKonekcijaBazeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToolBar$Separator" name="jSeparator6">
+        </Component>
+        <Component class="javax.swing.JButton" name="Button_Exit">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Grafika/Button-Close-icon.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Exit"/>
+            <Property name="toolTipText" type="java.lang.String" value="Izlaz iz sistema EDMS"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_ExitActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
