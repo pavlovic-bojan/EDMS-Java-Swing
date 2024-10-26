@@ -1,4 +1,4 @@
-# EDMS
+# EDMS Java Swing
 
 This is a java swing application that was created for the fictitious company Heli Vision as an electronic document management project in a helicopter service.
 
